@@ -3,7 +3,7 @@ require at91bootstrap.inc
 DEFAULT_PREFERENCE = "-1"
 
 SRCREV = "${AUTOREV}"
-SRC_URI = "git://github.com/linux4sam/at91bootstrap.git;protocol=git \
+SRC_URI = "git://github.com/linux4sam/at91bootstrap.git;protocol=https \
           "
 S = "${WORKDIR}/git"
 
